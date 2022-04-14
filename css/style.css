@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Beau+Rivage&family=Exo:ital,wght@1,500&family=Send+Flowers&display=swap');
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+
+
+
+.profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society{
+    box-sizing: border-box;
+    font-family: Anek Odia;
+    
+}
+
+.background{    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#resume {
+    background-image: url('/images/resumewallpaper.jpg');
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+
+.resume-header{
+    background-image: url("/images/resume-header-picture.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.resume-footer{
+    background-size: cover;
+    text-align: center;   
+}
+
+
+.resume-header li{
+    padding: 0 5%;
+}
+
+.resume-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Beau Rivage;
+}
+
+.resume-footer{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.resume-footer li{
+    padding: 0 5%;
+}
+
+
+.links ul {
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+}
+
+.links a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+}
+
+.links a:hover {
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.contactInformations ul {
+    margin: 0;
+}
+
+.contactInformations li {
+    display: inline;
+
+}
+
+.contactInformations a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+}
+
+.contactInformations a:hover {
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.profileSec, .collegeInfoSec, .classes{
+    transition: 250ms ease-in-out;
+    border: 3px outset white;
+    background-color: lightblue;
+    text-align: center;
+    opacity: 20%;
+}
+
+.profileSec {
+    border-style: dotted dashed solid double;
+}
+
+.collegeInfoSec{
+    border-style: inset;
+}
+
+.classes{
+    border-style: ridge;
+}
+
+
+.profileSec:hover, .collegeInfoSec:hover, .classes:hover{
+    animation: changeBg 10s linear infinite;
+    color:black;
+    transform: translateY(-15px);
+    opacity: 60%;
+
+    box-shadow: 0 0 3rem white;
+}
+
+@keyframes changeBg {
+0% {
+    background-color:blueviolet;
+} 
+20% {
+    background-color:mediumspringgreen ;
+} 
+40% {
+    background-color:deepskyblue ;
+} 
+60% {
+    background-color:darkorange ;
+} 
+80% {
+    background-color:yellowgreen ;
+} 
+100% {
+    background-color:blueviolet ;
+} 
+}
+
+.collegeInfoSec:hover{
+    animation: changecollegeInfoSecBg 5s linear infinite;
+    color:black;
+    transform: translateY(-15px);
+    opacity: 60%;
+}
+
+@keyframes changecollegeInfoSecBg {
+0% {
+    background-color:rgb(255, 255, 255);
+} 
+20% {
+    background-color:rgb(0, 0, 0) ;
+}
+}
+
+.classes:hover{
+    animation: changeClassesBg 10s linear infinite;
+    color:black;
+    transform: translateY(-15px);
+    opacity: 60%;
+}
+
+@keyframes changeClassesBg {
+0% {
+    background-color:rgb(255, 0, 0);
+} 
+50% {
+    background-color:rgb(21, 255, 0) ;
+}
+100% {
+    background-color: blue;
+}
+}
+
+
+#contactInformationHeader{
+    text-align: center;
+    color:aliceblue;
+    text-align: center;
+}
+
+
+
+.highschool, .another-college, .society{
+    border: 5px outset black;
+    background-color: greenyellow;
+    text-align: center;
+    opacity: 30%;
+
+    box-shadow: 0 0 3rem yellow;
+    box-shadow: 2em 2rem 0 0rem yellow;
+    
+}
+
+.highschool:hover, .another-college:hover, .society:hover{
+    animation: changeMajorBg 10s linear infinite;
+    color:black;
+    transform: translateY(-15px);
+    opacity: 60%;
+}
+
+@keyframes changeMajorBg {
+    0% {
+        background-color:rgb(43, 226, 119);
+    } 
+    20% {
+        background-color:rgb(225, 250, 0) ;
+    } 
+    40% {
+        background-color:rgb(43, 255, 0) ;
+    } 
+    60% {
+        background-color:rgb(217, 255, 0) ;
+    } 
+    80% {
+        background-color:rgb(50, 205, 63) ;
+    } 
+    100% {
+        background-color:rgb(226, 223, 43) ;
+    } 
+    
+    }
+    
+
+
+.introduction, .process, .continue{
+    border: 5px outset black;
+    background-color: lightblue;
+    text-align: center;
+    opacity: 30%;
+
+    box-shadow: 0 0 3rem aqua;
+}
+
+.introduction:hover, .process:hover, .continue:hover{
+    animation: changeBg 10s linear infinite;
+    color:black;
+    transform: translateY(-15px);
+    opacity: 80%;
+}
+
+
+
+
+.image1 {
+    border: 5px outset white;
+    background-color: lightblue;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color:rgb(255, 255, 255);
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+    box-shadow: 0 0 3rem black;
+}
+
+
+
+
+#major {
+    background-image: url('/images/majorwallpaper.jpg');
+    background-color: rgb(202, 199, 199);
+    background-blend-mode:luminosity;
+}
+
+
+
+
+
+
+
+.major-header {
+    background-image: url('/images/major-header-picture.jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.major-footer{
+    background-size: cover;
+    text-align: center;   
+}
+
+
+.major-header li{
+    padding: 0 5%;
+}
+
+.major-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Beau Rivage;
+}
+
+.major-footer{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.major-footer li{
+    padding: 0 5%;
+}
+
+
+
+#personalproject {
+    background-image: url('/images/personalproject.jpg');
+
+}
+
+
+
+
+
+
+.pp-header {
+    background-image: url('/images/major-header-picture.jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.pp-footer{
+    background-size: cover;
+    text-align: center;   
+}
+
+
+.pp-header li{
+    padding: 0 5%;
+}
+
+.pp-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Beau Rivage;
+}
+
+.pp-footer{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-image: url('/images/something else2.jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.pp-footer li{
+    padding: 0 5%;
+}
+
+.contactInformations-pp ul {
+    margin: 0;
+}
+
+.contactInformations-pp li {
+    display: inline;
+
+}
+
+.contactInformations-pp a {
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+}
+
+.contactInformations-pp a:hover {
+    background-color: yellowgreen;
+}
+
+#contactInformationHeader {
+    color: black;
+}
+
+
+
+.highschool, .another-college, .society {
+    margin: 1em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.M-Section-header {
+    font-family: 'Exo', sans-serif;
+}
+
+.P-Section-Header {
+    font-family: 'Send Flowers', cursive;
+}
+
+p.intro:first-letter {
+    font-size: 100px;
+    display: block;
+    float: left;
+    line-height: 0.5;
+    margin: 15px 15px 10px 0;
+}
+
