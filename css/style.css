@@ -3,9 +3,9 @@
 
 
 
-.profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society{
+.profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society {
     box-sizing: border-box;
-    font-family: "Ane+Odia";
+    font-family: "Ane Odia";
 }
 
 .background{    
