@@ -5,7 +5,7 @@
 
 .profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society{
     box-sizing: border-box;
-    font-family: Anek Odia;
+    font-family: "Anek Odia";
 }
 
 .background{    
@@ -52,7 +52,7 @@ h1 {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: Beau Rivage;
+    font-family: "Beau Rivage";
 }
 
 .resume-footer{
@@ -319,7 +319,7 @@ h1 {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: Beau Rivage;
+    font-family: "Beau Rivage";
 }
 
 .major-footer{
@@ -368,7 +368,7 @@ h1 {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: Beau Rivage;
+    font-family: "Beau Rivage";
 }
 
 .pp-footer{
