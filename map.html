@@ -34,18 +34,36 @@
         <h1 class="pp-name pp-name-large">Map</h1>
     </header>
     
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 41.834683, lng: -87.625958},
-          zoom: 16
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo0-MWUTmb3VfglvJQ99_kmwWvWFOgnXc&callback=initMap"
-    async defer></script>
+    <div id="map">
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 41.834683, lng: -87.625958},
+            zoom: 16
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo0-MWUTmb3VfglvJQ99_kmwWvWFOgnXc&callback=initMap"
+      async defer></script>
+  </div>
+
+    <br>
+    <br>
+    <hr>
+  <footer class="major-footer">
+    <h3 id="contactInformationHeader">Contact Informations</h3>
+
+    <nav class="contactInformations">
+        <div>
+            <ul>
+                <li><a href="https://iit.joinhandshake.com/stu/users/34365853" target="_blank">Handshake</a></li>
+                <li><a href="https://www.linkedin.com/in/andrew-zhang-b59a7b210/" target="_blank">linkedin</a></li>
+                <li><a href="mailto: andrew.zhang49@gmail.com" target="_blank">andrew.zhang49@gmail.com</a></li>
+            </ul>
+        </div> 
+     </nav>
+</footer>
 
 
 </body>
