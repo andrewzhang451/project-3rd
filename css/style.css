@@ -436,3 +436,17 @@ p.intro:first-letter {
     margin: 15px 15px 10px 0;
 }
 
+#map {
+    border: 5px outset white;
+    background-color: lightblue;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color:rgb(255, 255, 255);
+    width: 1000px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
