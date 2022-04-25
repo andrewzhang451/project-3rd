@@ -6,11 +6,7 @@ img {
     max-width: 100%;
 }
       
-@media all and (max-width: 600px) {
-    img {
-    width: 75%;
-}
-}    
+ 
 
 
 .profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society {
@@ -460,3 +456,9 @@ p.intro:first-letter {
     margin-right: auto;
     margin-bottom: 60px;
 }
+
+@media all and (max-width: 600px) {
+    img {
+    width: 75%;
+}
+}   
