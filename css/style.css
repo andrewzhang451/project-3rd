@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Beau+Rivage&family=Exo:ital,wght@1,500&family=Send+Flowers&display=swap');
 
 
-img {
-    image-rendering: high-quality;
-    max-width: 100%;
-}
       
  
 
@@ -462,3 +458,16 @@ p.intro:first-letter {
     width: 75%;
 }
 }   
+@media (orientation: landscape) {
+    img {
+        width: 100%;
+    }
+}
+
+img {
+    image-rendering: high-quality;
+    max-width: 100%;
+}
+    
+    
+    
