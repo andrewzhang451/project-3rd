@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Beau+Rivage&family=Exo:ital,wght@1,500&family=Send+Flowers&display=swap');
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px);
 
+
+img {
+    image-rendering: high-quality;
+    max-width: 100%;
+}
+      
+@media screen and (max-width: 620px) {
+    img {
+    width: 75%;
+}
+}    
 
 
 .profileSec, .collegeInfoSec, .classes, .introduction, .process, .continue, .highschool, .another-college, .society {
