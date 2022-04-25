@@ -6,7 +6,7 @@ img {
     max-width: 100%;
 }
       
-@media all and (max-width: 620px) {
+@media all and (max-width: 600px) {
     img {
     width: 75%;
 }
